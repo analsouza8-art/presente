@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>SISTEMA DE SEGURANÇA: NÍVEL ESPECIAL</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <iframe id="musica-background" style="display:none" width="0" height="0" src="" frameborder="0" allow="autoplay"></iframe>
+
+    <div id="container-cofre">
+        <div id="etapa-desafio">
+            <h1 id="titulo-etapa">ACESSO BLOQUEADO</h1>
+            <p id="pista">Nível 1 [Jujutsu Kaisen]: Para selar Gojo Satoru, qual comando de voz foi usado para ativar o Reino da Prisão (Gokumonkyō)?</p>
+            
+            <input type="text" id="input-resposta" class="input-senha" placeholder="Aguardando dados...">
+            <br>
+            <button class="btn-tentar" id="btn-verificar">EXECUÇÃO</button>
+            <p id="mensagem-erro">ERRO: Resposta inválida.</p>
+        </div>
+
+        <div id="recompensa" style="display: none;">
+            <h1 style="color: #00ff41;">SISTEMA DESBLOQUEADO</h1>
+            <h2 style="color: #fff; font-size: 2rem;">FELIZ ANIVERSÁRIO!</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

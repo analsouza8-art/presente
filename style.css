@@ -1,0 +1,52 @@
+body {
+    background-color: #050505;
+    color: #e0e0e0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+#container-cofre {
+    background: rgba(15, 15, 15, 0.95);
+    padding: 40px;
+    border: 2px solid #ff3e3e;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 450px;
+    width: 90%;
+    box-shadow: 0 0 20px rgba(255, 62, 62, 0.2);
+}
+
+h1 { color: #ff3e3e; font-size: 1.2rem; letter-spacing: 3px; margin-bottom: 30px; }
+
+#pista { font-size: 1.1rem; margin-bottom: 25px; color: #ccc; min-height: 90px; }
+
+.input-senha {
+    background: #000;
+    border: 1px solid #444;
+    color: #00ff41;
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+    outline: none;
+}
+
+.btn-tentar {
+    background: #ff3e3e;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.btn-tentar:hover { background: #8b0000; }
+
+#mensagem-erro { color: #ff3e3e; font-size: 0.8rem; margin-top: 15px; display: none; }
